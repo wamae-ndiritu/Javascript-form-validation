@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-cont {
+  width: 35%;
+  /* background-color: #f513f5ab; */
+  background-color: #fff;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  /* height: 500px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.input-cont {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.form-header {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.input {
+  width: 90%;
+  padding: 10px 0 10px 10px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+/* .input-cont input {
+    border: 1px solid red;
+} */
+
+.input-cont input:focus {
+  outline: none;
+}
+
+.check-password {
+  display: flex;
+  width: 80%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.pass-icon {
+  margin-right: 10px;
+}
+
+.btn {
+  width: 60%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: purple;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.7s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+/* errors */
+
+.error-border {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  padding-top: 3px;
+}
+/* errors */
+
+@media (max-width: 538px) {
+  .form-cont {
+    width: 98%;
+  }
+}

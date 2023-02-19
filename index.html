@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="https://kit.fontawesome.com/2add58587e.js" crossorigin="anonymous"></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="main-cont">
+        <div class="form-cont">
+            <h3 class="title">Register</h3>
+            <div class="input-cont">
+                <h5 class="form-header">Name</h5>
+                <input type="text" id="name" class="input" />
+                <p class="error error-name"></p>
+            </div>
+            <div class="input-cont">
+                <h5 class="form-header">Email</h5>
+                <input type="email" id="email" class="input" />
+                <p class="error error-email"></p>
+            </div>
+            <div class="input-cont">
+                <h5 class="form-header">Contact</h5>
+                <input type="number" id="contact" class="input" />
+                <p class="error error-contact"></p>
+            </div>
+            <div class="input-cont">
+                <h5 class="form-header">Password</h5>
+                <input type="password" id="password_1" class="input password-input" />
+                <p class="error error-pass" id="pass_1"></p>
+            </div>
+            <div class="input-cont">
+                <h5 class="form-header">Confirm Password</h5>
+                <input type="password" id="password_2" class="input password-input" />
+                <p class="error error-pass" id="pass_2"></p>
+            </div>
+            <div class="check-password" id="check-pass">
+                <i class="fa fa-eye-slash pass-icon" aria-hidden="true"></i>
+                <p>Check Password</p>
+            </div>
+            <button class="btn" id="btn">Submit</button>
+        </div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
